@@ -12,7 +12,6 @@ def riverSizes(matrix):
             traverseNode(i, j, matrix, visited, sizes)
     return sizes
 
-
 # DFS helper function - iterative
 def traverseNode(i, j, matrix, visited, sizes):
     currentRiverSize = 0
