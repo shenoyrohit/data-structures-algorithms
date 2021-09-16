@@ -5,6 +5,7 @@ class Node:
 
     def addChild(self, name):
         self.children.append(Node(name))
+        return self
 
     # O (v + e) time  | O (v) space
     def breadthFirstSearch(self, array):
